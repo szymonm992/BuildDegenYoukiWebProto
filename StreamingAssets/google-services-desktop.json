@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "931896985453",
+    "project_id": "degen-youki",
+    "storage_bucket": "degen-youki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931896985453:android:895ee5bc428d1645a6bc64",
+        "android_client_info": {
+          "package_name": "com.Metapro.DegenYouki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931896985453-5mnnipvbpi5andouoqg2kel1hqkn7ssb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCzdKd2EelZCOsvEfSdTt8ykA5ePN74pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931896985453-5mnnipvbpi5andouoqg2kel1hqkn7ssb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "931896985453-6qdjm6ptvc8ro4jrjjgnr58fe6cqbv67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "degen.youki"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
