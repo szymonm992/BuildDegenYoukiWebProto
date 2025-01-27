@@ -6,37 +6,6 @@
     <title>Unity WebGL Player | Degen Youki</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-
-<script>
-
- var unityInstanceGlobal = null;
-
-    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/MyGame.json", {
-        onProgress: UnityProgress,
-        Module: {
-            onRuntimeInitialized: function () {
-                unityInstanceGlobal = unityInstance;
-            }
-        }
-    });
-
-    // Load the web3.js library dynamically
-    var web3ScriptEl = document.createElement("script");
-    web3ScriptEl.type = "text/javascript";
-    web3ScriptEl.src = "https://cdn.jsdelivr.net/npm/web3@4.13.0/dist/web3.min.js";
-    document.getElementsByTagName("head")[0].appendChild(web3ScriptEl);
-
-    web3ScriptEl.onload = function () {
-        if (typeof window.ethereum !== "undefined") {
-            window.Web3 = Web3;
-            window.web3 = new Web3(window.ethereum);
-            console.log("web3.js library loaded successfully!");
-        } else {
-            console.log("Ethereum provider not detected.");
-        }
-    };
-</script>
-
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -139,24 +108,46 @@
       }
 
       loadingBar.style.display = "block";
+ var unityInstanceGlobal;
+var script = document.createElement("script");
+  script.src = loaderUrl;
+  script.onload = () => {
+    createUnityInstance(canvas, config, (progress) => {
+      progressBarFull.style.width = 100 * progress + "%";
+    }).then((unityInstance) => {
+      loadingBar.style.display = "none";
 
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-              }).then((unityInstance) => {
-                loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-              }).catch((message) => {
-                alert(message);
-              });
-            };
+      // Assign the Unity instance to the global variable
+      unityInstanceGlobal = unityInstance;
 
-      document.body.appendChild(script);
+      // Fullscreen button functionality
+      fullscreenButton.onclick = () => {
+        unityInstance.SetFullscreen(1);
+      };
+    }).catch((message) => {
+      alert(message);
+    });
+  };
 
-    </script>
+  document.body.appendChild(script);
+
+
+// Load the web3.js library dynamically
+    var web3ScriptEl = document.createElement("script");
+    web3ScriptEl.type = "text/javascript";
+    web3ScriptEl.src = "https://cdn.jsdelivr.net/npm/web3@4.13.0/dist/web3.min.js";
+    document.getElementsByTagName("head")[0].appendChild(web3ScriptEl);
+
+    web3ScriptEl.onload = function () {
+        if (typeof window.ethereum !== "undefined") {
+            window.Web3 = Web3;
+            window.web3 = new Web3(window.ethereum);
+            console.log("web3.js library loaded successfully!");
+        } else {
+            console.log("Ethereum provider not detected.");
+        }
+    };
+</script>
+
   </body>
 </html>
