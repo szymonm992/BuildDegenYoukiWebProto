@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="TemplateData/style.css">
 
 <script>
+
+ var unityInstanceGlobal = null;
+
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/MyGame.json", {
+        onProgress: UnityProgress,
+        Module: {
+            onRuntimeInitialized: function () {
+                unityInstanceGlobal = unityInstance;
+            }
+        }
+    });
+
     // Load the web3.js library dynamically
     var web3ScriptEl = document.createElement("script");
     web3ScriptEl.type = "text/javascript";
