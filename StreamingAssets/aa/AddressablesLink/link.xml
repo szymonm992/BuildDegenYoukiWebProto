@@ -47,6 +47,7 @@
     <type fullname="Woolf.PlayerCollisionHandler" preserve="all" />
     <type fullname="Woolf.WoolfCollider" preserve="all" />
     <type fullname="TargetPosition" preserve="nothing" serialized="true" />
+    <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Kybernetik.Animancer, Version=8.0.1.28, Culture=neutral, PublicKeyToken=null">
     <type fullname="Animancer.AnimancerComponent" preserve="all" />
