@@ -36,6 +36,7 @@
     <type fullname="GameplayOnline.PlayNextMapButtonController" preserve="all" />
     <type fullname="GameplayOnline.PopupTimerAnimation" preserve="all" />
     <type fullname="GameplayOnline.ReplayButtonController" preserve="all" />
+    <type fullname="MapButtonData" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
     <type fullname="Menu.ImageRotate" preserve="all" />
     <type fullname="Menu.MapSelection.MapButton" preserve="all" />
