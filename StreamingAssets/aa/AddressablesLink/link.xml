@@ -13,9 +13,10 @@
     <type fullname="Gameplay.Consumable.ItemHolder" preserve="all" />
     <type fullname="Gameplay.DiamondParticle" preserve="all" />
     <type fullname="Gameplay.PlayerInput" preserve="all" />
+    <type fullname="Gameplay.PlayerMovement" preserve="all" />
+    <type fullname="Gameplay.PlayerMovementData" preserve="all" />
     <type fullname="Gameplay.PortalSelector" preserve="all" />
     <type fullname="Gameplay.UI.MysteryBoxScreen" preserve="all" />
-    <type fullname="Gameplay.WorldMove" preserve="all" />
     <type fullname="GameplayLocal.LocalDiamondMove" preserve="all" />
     <type fullname="GameplayLocal.SpikeController" preserve="all" />
     <type fullname="GameplayOnline.DeathSpriteAnimation" preserve="all" />
@@ -44,7 +45,6 @@
     <type fullname="Menu.MapSelection.MapPopup" preserve="all" />
     <type fullname="Menu.MapSelection.MapScreenManager" preserve="all" />
     <type fullname="Menu.MapSelection.PinAnimation" preserve="all" />
-    <type fullname="MysteryRoom.MRPlayerController" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
     <type fullname="Utils.PrefabArraySpawner" preserve="all" />
     <type fullname="Utils.SpriteListAnimation" preserve="all" />
@@ -131,6 +131,7 @@
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider2D" preserve="all" />
     <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
     <type fullname="UnityEngine.PhysicsMaterial2D" preserve="all" />
     <type fullname="UnityEngine.PlatformEffector2D" preserve="all" />
