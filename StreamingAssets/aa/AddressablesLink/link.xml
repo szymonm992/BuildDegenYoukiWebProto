@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cameras.CameraConfiner" preserve="all" />
     <type fullname="Cameras.CameraController" preserve="all" />
+    <type fullname="ContentManager" preserve="all" />
     <type fullname="Diamond" preserve="all" />
     <type fullname="Enemies.Seagull" preserve="all" />
     <type fullname="Gameplay.Actions.ActionEndCollider" preserve="all" />
@@ -39,6 +40,7 @@
     <type fullname="GameplayOnline.ReplayButtonController" preserve="all" />
     <type fullname="MapButtonData" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
+    <type fullname="MapsLoader" preserve="all" />
     <type fullname="Menu.ImageRotate" preserve="all" />
     <type fullname="Menu.MapSelection.MapButton" preserve="all" />
     <type fullname="Menu.MapSelection.MapInfoEntry" preserve="all" />
@@ -53,6 +55,7 @@
     <type fullname="Woolf.WoolfCollider" preserve="all" />
     <type fullname="TargetPosition" preserve="nothing" serialized="true" />
     <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
+    <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Kybernetik.Animancer, Version=8.0.1.28, Culture=neutral, PublicKeyToken=null">
