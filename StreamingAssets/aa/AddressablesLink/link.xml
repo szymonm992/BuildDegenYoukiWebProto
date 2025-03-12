@@ -3,6 +3,7 @@
     <type fullname="Cameras.CameraConfiner" preserve="all" />
     <type fullname="Cameras.CameraController" preserve="all" />
     <type fullname="ContentManager" preserve="all" />
+    <type fullname="CustomLogger" preserve="all" />
     <type fullname="Diamond" preserve="all" />
     <type fullname="DynamicImage" preserve="all" />
     <type fullname="Enemies.Seagull" preserve="all" />
@@ -42,6 +43,7 @@
     <type fullname="GameplayOnline.ReplayButtonController" preserve="all" />
     <type fullname="LeaderboardEntryUI" preserve="all" />
     <type fullname="LeaderboardsDisplayer" preserve="all" />
+    <type fullname="LoadingGateController" preserve="all" />
     <type fullname="Login.MetaproLoginPopup" preserve="all" />
     <type fullname="MapButtonData" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
@@ -56,6 +58,9 @@
     <type fullname="Menu.Dashboard.NavButton" preserve="all" />
     <type fullname="Menu.GlobalScoreDataDisplayer" preserve="all" />
     <type fullname="Menu.ImageRotate" preserve="all" />
+    <type fullname="Menu.LoadingCanvasController" preserve="all" />
+    <type fullname="Menu.LoadingGameplayScreenManager" preserve="all" />
+    <type fullname="Menu.LoadingScreenWithMaps" preserve="all" />
     <type fullname="Menu.MapSelection.MapButton" preserve="all" />
     <type fullname="Menu.MapSelection.MapInfoEntry" preserve="all" />
     <type fullname="Menu.MapSelection.MapPopup" preserve="all" />
@@ -65,6 +70,7 @@
     <type fullname="Menu.News.NewsItem" preserve="all" />
     <type fullname="Menu.News.NewsManager" preserve="all" />
     <type fullname="Menu.News.NewsPopup" preserve="all" />
+    <type fullname="Menu.OfflineScreenController" preserve="all" />
     <type fullname="Menu.OpenURL" preserve="all" />
     <type fullname="Menu.PlayButtonAnimation" preserve="all" />
     <type fullname="Menu.Profile.ChangeAvatarPopup" preserve="all" />
@@ -91,10 +97,11 @@
     <type fullname="Woolf.PlayerCollisionHandler" preserve="all" />
     <type fullname="Woolf.WoolfCollider" preserve="all" />
     <type fullname="TargetPosition" preserve="nothing" serialized="true" />
-    <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
-    <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
+    <type fullname="Menu.LoadingScreenWithMaps/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.Profile.PopupHolder" preserve="nothing" serialized="true" />
+    <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
+    <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Kybernetik.Animancer, Version=8.0.1.28, Culture=neutral, PublicKeyToken=null">
     <type fullname="Animancer.AnimancerComponent" preserve="all" />
