@@ -3,7 +3,6 @@
     <type fullname="Cameras.CameraConfiner" preserve="all" />
     <type fullname="Cameras.CameraController" preserve="all" />
     <type fullname="ContentManager" preserve="all" />
-    <type fullname="CustomLogger" preserve="all" />
     <type fullname="Diamond" preserve="all" />
     <type fullname="DynamicImage" preserve="all" />
     <type fullname="Enemies.Seagull" preserve="all" />
