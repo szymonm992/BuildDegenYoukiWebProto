@@ -142,10 +142,6 @@
     <type fullname="metaproSDK.Scripts.PluginManager/WalletSprite" preserve="nothing" serialized="true" />
     <type fullname="metaproSDK.Scripts.Serialization.UserGlobalScoreData" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Nobi.UiRoundedCorners, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Nobi.UiRoundedCorners.ImageWithIndependentRoundedCorners" preserve="all" />
-    <type fullname="Nobi.UiRoundedCorners.ImageWithRoundedCorners" preserve="all" />
-  </assembly>
   <assembly fullname="Reown.AppKit.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Reown.AppKit.Unity.AppKitCore" preserve="all" />
     <type fullname="Reown.AppKit.Unity.Utils.LoadingAnimator" preserve="all" />
