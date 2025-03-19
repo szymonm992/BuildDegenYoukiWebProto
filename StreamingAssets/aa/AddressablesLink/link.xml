@@ -8,9 +8,9 @@
     <type fullname="Cameras.CameraConfiner" preserve="all" />
     <type fullname="Cameras.CameraController" preserve="all" />
     <type fullname="ContentManager" preserve="all" />
-    <type fullname="CustomLogger" preserve="all" />
     <type fullname="Diamond" preserve="all" />
     <type fullname="DynamicImage" preserve="all" />
+    <type fullname="DynamicMissionsMenuManager" preserve="all" />
     <type fullname="Enemies.Seagull" preserve="all" />
     <type fullname="ExitGameButton" preserve="all" />
     <type fullname="GameData" preserve="all" />
@@ -100,10 +100,8 @@
     <type fullname="Menu.TosScreen" preserve="all" />
     <type fullname="Menu.WelcomeScreenManager" preserve="all" />
     <type fullname="MenuController" preserve="all" />
-    <type fullname="MenuPersistentManager" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
-    <type fullname="Utils.DebugLogger" preserve="all" />
     <type fullname="Utils.PrefabArraySpawner" preserve="all" />
     <type fullname="Utils.SpriteListAnimation" preserve="all" />
     <type fullname="Utils.TextWithBorder" preserve="all" />
