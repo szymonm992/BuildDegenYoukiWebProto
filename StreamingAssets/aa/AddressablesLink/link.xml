@@ -53,6 +53,7 @@
     <type fullname="LoadingGateController" preserve="all" />
     <type fullname="Login.MetaproLoginPopup" preserve="all" />
     <type fullname="MapButtonData" preserve="all" />
+    <type fullname="MapDependentElementsCollection" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
     <type fullname="MapsLoader" preserve="all" />
     <type fullname="Menu.AuthenticationManager" preserve="all" />
@@ -115,6 +116,7 @@
     <type fullname="Menu.LoadingScreenWithMaps/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.Profile.PopupHolder" preserve="nothing" serialized="true" />
+    <type fullname="MapDependentElementReference" preserve="nothing" serialized="true" />
     <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
     <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
     <type fullname="Gameplay.PlayerData" preserve="nothing" serialized="true" />
