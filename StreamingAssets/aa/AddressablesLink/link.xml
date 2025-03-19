@@ -9,8 +9,6 @@
     <type fullname="Cameras.CameraController" preserve="all" />
     <type fullname="ContentManager" preserve="all" />
     <type fullname="Diamond" preserve="all" />
-    <type fullname="DynamicImage" preserve="all" />
-    <type fullname="DynamicMissionsMenuManager" preserve="all" />
     <type fullname="Enemies.Seagull" preserve="all" />
     <type fullname="ExitGameButton" preserve="all" />
     <type fullname="GameData" preserve="all" />
@@ -53,7 +51,6 @@
     <type fullname="LoadingGateController" preserve="all" />
     <type fullname="Login.MetaproLoginPopup" preserve="all" />
     <type fullname="MapButtonData" preserve="all" />
-    <type fullname="MapDependentElementsCollection" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
     <type fullname="MapsLoader" preserve="all" />
     <type fullname="Menu.AuthenticationManager" preserve="all" />
@@ -103,6 +100,7 @@
     <type fullname="MenuController" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
+    <type fullname="Utils.DebugLogger" preserve="all" />
     <type fullname="Utils.PrefabArraySpawner" preserve="all" />
     <type fullname="Utils.SpriteListAnimation" preserve="all" />
     <type fullname="Utils.TextWithBorder" preserve="all" />
@@ -116,7 +114,6 @@
     <type fullname="Menu.LoadingScreenWithMaps/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.Profile.PopupHolder" preserve="nothing" serialized="true" />
-    <type fullname="MapDependentElementReference" preserve="nothing" serialized="true" />
     <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
     <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
     <type fullname="Gameplay.PlayerData" preserve="nothing" serialized="true" />
@@ -145,6 +142,10 @@
     <type fullname="metaproSDK.Scripts.PluginManager/WalletSprite" preserve="nothing" serialized="true" />
     <type fullname="metaproSDK.Scripts.Serialization.UserGlobalScoreData" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Nobi.UiRoundedCorners, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Nobi.UiRoundedCorners.ImageWithIndependentRoundedCorners" preserve="all" />
+    <type fullname="Nobi.UiRoundedCorners.ImageWithRoundedCorners" preserve="all" />
+  </assembly>
   <assembly fullname="Reown.AppKit.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Reown.AppKit.Unity.AppKitCore" preserve="all" />
     <type fullname="Reown.AppKit.Unity.Utils.LoadingAnimator" preserve="all" />
@@ -163,7 +164,6 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Light2D" preserve="all" />
