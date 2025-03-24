@@ -100,7 +100,6 @@
     <type fullname="MenuController" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
-    <type fullname="Utils.DebugLogger" preserve="all" />
     <type fullname="Utils.PrefabArraySpawner" preserve="all" />
     <type fullname="Utils.SpriteListAnimation" preserve="all" />
     <type fullname="Utils.TextWithBorder" preserve="all" />
