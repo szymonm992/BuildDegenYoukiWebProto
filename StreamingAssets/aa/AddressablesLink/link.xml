@@ -97,7 +97,6 @@
     <type fullname="Menu.WelcomeScreenManager" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
-    <type fullname="SoundManager" preserve="all" />
     <type fullname="Utils.DebugLogger" preserve="all" />
     <type fullname="Utils.PrefabArraySpawner" preserve="all" />
     <type fullname="Utils.SpriteListAnimation" preserve="all" />
@@ -202,7 +201,6 @@
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
-    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
