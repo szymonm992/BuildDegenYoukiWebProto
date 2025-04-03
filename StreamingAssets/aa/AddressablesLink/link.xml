@@ -65,7 +65,6 @@
     <type fullname="Menu.ImageRotate" preserve="all" />
     <type fullname="Menu.LoadingCanvasController" preserve="all" />
     <type fullname="Menu.LoadingGameplayScreenManager" preserve="all" />
-    <type fullname="Menu.LoadingScreenWithMaps" preserve="all" />
     <type fullname="Menu.MapSelection.MapButton" preserve="all" />
     <type fullname="Menu.MapSelection.MapInfoEntry" preserve="all" />
     <type fullname="Menu.MapSelection.MapPopup" preserve="all" />
@@ -108,7 +107,6 @@
     <type fullname="Woolf.PlayerCollisionHandler" preserve="all" />
     <type fullname="Woolf.WoolfCollider" preserve="all" />
     <type fullname="TargetPosition" preserve="nothing" serialized="true" />
-    <type fullname="Menu.LoadingScreenWithMaps/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.Profile.PopupHolder" preserve="nothing" serialized="true" />
     <type fullname="MapsDatabase/MapsInfoReference" preserve="nothing" serialized="true" />
