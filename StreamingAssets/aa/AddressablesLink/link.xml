@@ -107,7 +107,6 @@
     <type fullname="TargetPosition" preserve="nothing" serialized="true" />
     <type fullname="Menu.MapSelection.MapScreenManager/MapButtonAssignment" preserve="nothing" serialized="true" />
     <type fullname="Menu.Profile.PopupHolder" preserve="nothing" serialized="true" />
-    <type fullname="MapsLoader/MapsDatabaseReference" preserve="nothing" serialized="true" />
     <type fullname="Gameplay.PlayerData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Kybernetik.Animancer, Version=8.0.1.28, Culture=neutral, PublicKeyToken=null">
