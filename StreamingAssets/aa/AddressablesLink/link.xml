@@ -63,8 +63,6 @@
     <type fullname="Menu.Dashboard.NavButton" preserve="all" />
     <type fullname="Menu.GlobalScoreDataDisplayer" preserve="all" />
     <type fullname="Menu.ImageRotate" preserve="all" />
-    <type fullname="Menu.LoadingCanvasController" preserve="all" />
-    <type fullname="Menu.LoadingGameplayScreenManager" preserve="all" />
     <type fullname="Menu.MapSelection.MapButton" preserve="all" />
     <type fullname="Menu.MapSelection.MapInfoEntry" preserve="all" />
     <type fullname="Menu.MapSelection.MapPopup" preserve="all" />
@@ -93,7 +91,6 @@
     <type fullname="Menu.TabSystem.TabGroup" preserve="all" />
     <type fullname="Menu.TabSystem.TabImagesObject" preserve="all" />
     <type fullname="Menu.TosScreen" preserve="all" />
-    <type fullname="Menu.WelcomeScreenManager" preserve="all" />
     <type fullname="MenuController" preserve="all" />
     <type fullname="MysteryRoomPortal" preserve="all" />
     <type fullname="SmoothMoveToPosition" preserve="all" />
@@ -207,6 +204,7 @@
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
