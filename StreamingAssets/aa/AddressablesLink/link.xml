@@ -1,8 +1,4 @@
 <linker>
-  <assembly fullname="Appsetup_asmdef, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="MetaproAppSetup" preserve="all" />
-    <type fullname="AvailableAsset" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AppkitTestMetapro" preserve="all" />
     <type fullname="Cameras.CameraConfiner" preserve="all" />
@@ -43,7 +39,6 @@
     <type fullname="GameplayOnline.PlayNextMapButtonController" preserve="all" />
     <type fullname="GameplayOnline.PopupTimerAnimation" preserve="all" />
     <type fullname="GameplayOnline.ReplayButtonController" preserve="all" />
-    <type fullname="Leaderboard.LeaderboardManager" preserve="all" />
     <type fullname="LeaderboardEntryUI" preserve="all" />
     <type fullname="LeaderboardsDisplayer" preserve="all" />
     <type fullname="LoadingGateController" preserve="all" />
@@ -51,7 +46,6 @@
     <type fullname="MapButtonData" preserve="all" />
     <type fullname="MapsDatabase" preserve="all" />
     <type fullname="MapsLoader" preserve="all" />
-    <type fullname="Menu.AuthenticationManager" preserve="all" />
     <type fullname="Menu.CharacterHolder" preserve="all" />
     <type fullname="Menu.Customization.CustomizationMobileScreen" preserve="all" />
     <type fullname="Menu.Customization.ItemController" preserve="all" />
@@ -69,7 +63,6 @@
     <type fullname="Menu.MapSelection.MapScreenManager" preserve="all" />
     <type fullname="Menu.MapSelection.PinAnimation" preserve="all" />
     <type fullname="Menu.MenuScoreHolder" preserve="all" />
-    <type fullname="Menu.Mobile.MetaproLogin" preserve="all" />
     <type fullname="Menu.News.NewsItem" preserve="all" />
     <type fullname="Menu.News.NewsManager" preserve="all" />
     <type fullname="Menu.News.NewsPopup" preserve="all" />
@@ -100,7 +93,6 @@
     <type fullname="Utils.TextWithBorder" preserve="all" />
     <type fullname="Visual.UIImageAnimation" preserve="all" />
     <type fullname="Visual.VersionDisplayController" preserve="all" />
-    <type fullname="WalletConnectUnity.Modal.Sample.Dapp" preserve="all" />
     <type fullname="Woolf.MrWoolf" preserve="all" />
     <type fullname="Woolf.PlayerCollisionHandler" preserve="all" />
     <type fullname="Woolf.WoolfCollider" preserve="all" />
@@ -114,24 +106,6 @@
     <type fullname="Animancer.StringAsset" preserve="all" />
     <type fullname="Animancer.TransitionAsset" preserve="all" />
     <type fullname="Animancer.LinearMixerTransition" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Main_asmdef, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ChainNetDisplay" preserve="all" />
-    <type fullname="metaproSDK.Scripts.CategoryButtonHolder" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Controllers.AssetsWindowController" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Controllers.UserWindowController" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Controllers.WalletConnectProviderController" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Controllers.WalletProviderButtonController" preserve="all" />
-    <type fullname="metaproSDK.Scripts.PluginManager" preserve="all" />
-    <type fullname="metaproSDK.Scripts.UI.SelectedWalletImageHolder" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Utils.CustomButton" preserve="all" />
-    <type fullname="metaproSDK.Scripts.Utils.ObjectColorsHolder" preserve="all" />
-    <type fullname="NftTokenHolder" preserve="all" />
-    <type fullname="NftWindowController" preserve="all" />
-    <type fullname="Utils.PluginTextWithBorder" preserve="all" />
-    <type fullname="metaproSDK.Scripts.PluginManager/ChainSprite" preserve="nothing" serialized="true" />
-    <type fullname="metaproSDK.Scripts.PluginManager/WalletSprite" preserve="nothing" serialized="true" />
-    <type fullname="metaproSDK.Scripts.Serialization.UserGlobalScoreData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Reown.AppKit.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Reown.AppKit.Unity.AppKitCore" preserve="all" />
@@ -287,6 +261,9 @@
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Main_asmdef">
+    <type fullname="metaproSDK.Scripts.Serialization.UserGlobalScoreData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
